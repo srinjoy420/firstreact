@@ -6,10 +6,13 @@ import { Contact } from "./pages/Contact"
 import { Country } from "./pages/Country"
 import { Home } from "./pages/Home"
 import { AppLayout } from "./components/layout/AppLayout"
+import { ErrorPage } from "./pages/ErrorPage"
 const router = createBrowserRouter([
   {
     path: "/",
     element: <AppLayout />,
+
+    errorElement:<ErrorPage/>,
     children:[
       {
         path: "/",

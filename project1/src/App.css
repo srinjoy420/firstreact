@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 :root {
@@ -77,9 +78,10 @@ button {
 /* Layout  */
 
 .container {
-  max-width: 140rem;
+  max-width: 90rem;
   margin: auto;
 }
+
 
 .grid {
   display: grid;
